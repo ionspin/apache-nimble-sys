@@ -9,8 +9,8 @@ license = "Apache-2.0"
 cty = "0.2.1"
 embedded-io = "0.6.0"
 once_cell = { version = "1.18.0", features = ["atomic-polyfill"], default-features = false }
-embassy-sync = "0.5.0"
-embassy-time = "0.3.0"
+embassy-sync = "0.6.0"
+embassy-time = { git = "https://github.com/embassy-rs/embassy.git", version = "0.3.1" }
 embassy-futures = "0.1.0"
 apache-nimble-sys = { path = "../apache-nimble-sys" }
 bt-hci = "0.1.0"
